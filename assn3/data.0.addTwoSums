@@ -1,0 +1,16 @@
+d100 fffffff0 // -16
+d104 00000100 // 256
+$8 68
+i1000 8d09fffc // lw $9, -4($8)     IF ID EX ME WB
+i1004 8d0a0000 // lw $10, 0($8)        IF ID EX ME WB
+i1008 00000020 // add $0, $0, $0          IF ID EX ME WB
+i1012 00000020 // add $0, $0, $0             IF ID EX ME WB
+i1016 012a5820 // add $11, $9, $10              IF ID EX ME WB
+i1020 00000020 // add $0, $0, $0                   IF ID EX ME WB
+i1024 00000020 // add $0, $0, $0                      IF ID EX ME WB
+i1028 ad0b0004 // sw $11, 4($8)                          IF ID EX ME WB
+i1032 00000020 // add $0, $0, $0                            IF ID EX ME
+i1036 00000020 // add $0, $0, $0                               IF ID EX
+i1040 00000020 // add $0, $0, $0                                  IF ID
+i1044 00000020 // add $0, $0, $0                                     IF
+

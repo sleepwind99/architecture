@@ -1,0 +1,216 @@
+INFO: addr = 0x000003e8 --> Cache --> data = 0x01234567
+========== Cache Status ==========
+_numLines = 8, _numSets = 2, _lineSize = 4
+Set #0:
+  Line #0: valid = T, tag = 0x7d, data = 0x01234567, lruCounter = 0
+  Line #1: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+  Line #2: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+  Line #3: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+Set #1:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+  Line #1: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+  Line #2: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+  Line #3: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+========== Memory ==========
+addr =   1000, data = 0x01234567
+addr =   1004, data = 0x12345678
+addr =   1008, data = 0x23456789
+addr =   1012, data = 0x3456789a
+addr =   1016, data = 0x456789ab
+addr =   1020, data = 0x56789abc
+addr =   1024, data = 0x6789abcd
+addr =   1028, data = 0x789abcde
+addr =   1032, data = 0x89abcdef
+
+INFO: addr = 0x000003ec --> Cache --> data = 0x12345678
+========== Cache Status ==========
+_numLines = 8, _numSets = 2, _lineSize = 4
+Set #0:
+  Line #0: valid = T, tag = 0x7d, data = 0x01234567, lruCounter = 0
+  Line #1: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+  Line #2: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+  Line #3: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+Set #1:
+  Line #0: valid = T, tag = 0x7d, data = 0x12345678, lruCounter = 0
+  Line #1: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+  Line #2: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+  Line #3: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+========== Memory ==========
+addr =   1000, data = 0x01234567
+addr =   1004, data = 0x12345678
+addr =   1008, data = 0x23456789
+addr =   1012, data = 0x3456789a
+addr =   1016, data = 0x456789ab
+addr =   1020, data = 0x56789abc
+addr =   1024, data = 0x6789abcd
+addr =   1028, data = 0x789abcde
+addr =   1032, data = 0x89abcdef
+
+INFO: addr = 0x000003f0 --> Cache --> data = 0x23456789
+========== Cache Status ==========
+_numLines = 8, _numSets = 2, _lineSize = 4
+Set #0:
+  Line #0: valid = T, tag = 0x7d, data = 0x01234567, lruCounter = 1
+  Line #1: valid = T, tag = 0x7e, data = 0x23456789, lruCounter = 0
+  Line #2: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+  Line #3: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+Set #1:
+  Line #0: valid = T, tag = 0x7d, data = 0x12345678, lruCounter = 0
+  Line #1: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+  Line #2: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+  Line #3: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+========== Memory ==========
+addr =   1000, data = 0x01234567
+addr =   1004, data = 0x12345678
+addr =   1008, data = 0x23456789
+addr =   1012, data = 0x3456789a
+addr =   1016, data = 0x456789ab
+addr =   1020, data = 0x56789abc
+addr =   1024, data = 0x6789abcd
+addr =   1028, data = 0x789abcde
+addr =   1032, data = 0x89abcdef
+
+INFO: addr = 0x000003f4 --> Cache --> data = 0x3456789a
+========== Cache Status ==========
+_numLines = 8, _numSets = 2, _lineSize = 4
+Set #0:
+  Line #0: valid = T, tag = 0x7d, data = 0x01234567, lruCounter = 1
+  Line #1: valid = T, tag = 0x7e, data = 0x23456789, lruCounter = 0
+  Line #2: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+  Line #3: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+Set #1:
+  Line #0: valid = T, tag = 0x7d, data = 0x12345678, lruCounter = 1
+  Line #1: valid = T, tag = 0x7e, data = 0x3456789a, lruCounter = 0
+  Line #2: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+  Line #3: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+========== Memory ==========
+addr =   1000, data = 0x01234567
+addr =   1004, data = 0x12345678
+addr =   1008, data = 0x23456789
+addr =   1012, data = 0x3456789a
+addr =   1016, data = 0x456789ab
+addr =   1020, data = 0x56789abc
+addr =   1024, data = 0x6789abcd
+addr =   1028, data = 0x789abcde
+addr =   1032, data = 0x89abcdef
+
+INFO: addr = 0x000003f8 --> Cache --> data = 0x456789ab
+========== Cache Status ==========
+_numLines = 8, _numSets = 2, _lineSize = 4
+Set #0:
+  Line #0: valid = T, tag = 0x7d, data = 0x01234567, lruCounter = 2
+  Line #1: valid = T, tag = 0x7e, data = 0x23456789, lruCounter = 1
+  Line #2: valid = T, tag = 0x7f, data = 0x456789ab, lruCounter = 0
+  Line #3: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+Set #1:
+  Line #0: valid = T, tag = 0x7d, data = 0x12345678, lruCounter = 1
+  Line #1: valid = T, tag = 0x7e, data = 0x3456789a, lruCounter = 0
+  Line #2: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+  Line #3: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+========== Memory ==========
+addr =   1000, data = 0x01234567
+addr =   1004, data = 0x12345678
+addr =   1008, data = 0x23456789
+addr =   1012, data = 0x3456789a
+addr =   1016, data = 0x456789ab
+addr =   1020, data = 0x56789abc
+addr =   1024, data = 0x6789abcd
+addr =   1028, data = 0x789abcde
+addr =   1032, data = 0x89abcdef
+
+INFO: addr = 0x000003fc --> Cache --> data = 0x56789abc
+========== Cache Status ==========
+_numLines = 8, _numSets = 2, _lineSize = 4
+Set #0:
+  Line #0: valid = T, tag = 0x7d, data = 0x01234567, lruCounter = 2
+  Line #1: valid = T, tag = 0x7e, data = 0x23456789, lruCounter = 1
+  Line #2: valid = T, tag = 0x7f, data = 0x456789ab, lruCounter = 0
+  Line #3: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+Set #1:
+  Line #0: valid = T, tag = 0x7d, data = 0x12345678, lruCounter = 2
+  Line #1: valid = T, tag = 0x7e, data = 0x3456789a, lruCounter = 1
+  Line #2: valid = T, tag = 0x7f, data = 0x56789abc, lruCounter = 0
+  Line #3: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+========== Memory ==========
+addr =   1000, data = 0x01234567
+addr =   1004, data = 0x12345678
+addr =   1008, data = 0x23456789
+addr =   1012, data = 0x3456789a
+addr =   1016, data = 0x456789ab
+addr =   1020, data = 0x56789abc
+addr =   1024, data = 0x6789abcd
+addr =   1028, data = 0x789abcde
+addr =   1032, data = 0x89abcdef
+
+INFO: addr = 0x00000400 --> Cache --> data = 0x6789abcd
+========== Cache Status ==========
+_numLines = 8, _numSets = 2, _lineSize = 4
+Set #0:
+  Line #0: valid = T, tag = 0x7d, data = 0x01234567, lruCounter = 3
+  Line #1: valid = T, tag = 0x7e, data = 0x23456789, lruCounter = 2
+  Line #2: valid = T, tag = 0x7f, data = 0x456789ab, lruCounter = 1
+  Line #3: valid = T, tag = 0x80, data = 0x6789abcd, lruCounter = 0
+Set #1:
+  Line #0: valid = T, tag = 0x7d, data = 0x12345678, lruCounter = 2
+  Line #1: valid = T, tag = 0x7e, data = 0x3456789a, lruCounter = 1
+  Line #2: valid = T, tag = 0x7f, data = 0x56789abc, lruCounter = 0
+  Line #3: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0
+========== Memory ==========
+addr =   1000, data = 0x01234567
+addr =   1004, data = 0x12345678
+addr =   1008, data = 0x23456789
+addr =   1012, data = 0x3456789a
+addr =   1016, data = 0x456789ab
+addr =   1020, data = 0x56789abc
+addr =   1024, data = 0x6789abcd
+addr =   1028, data = 0x789abcde
+addr =   1032, data = 0x89abcdef
+
+INFO: addr = 0x00000404 --> Cache --> data = 0x789abcde
+========== Cache Status ==========
+_numLines = 8, _numSets = 2, _lineSize = 4
+Set #0:
+  Line #0: valid = T, tag = 0x7d, data = 0x01234567, lruCounter = 3
+  Line #1: valid = T, tag = 0x7e, data = 0x23456789, lruCounter = 2
+  Line #2: valid = T, tag = 0x7f, data = 0x456789ab, lruCounter = 1
+  Line #3: valid = T, tag = 0x80, data = 0x6789abcd, lruCounter = 0
+Set #1:
+  Line #0: valid = T, tag = 0x7d, data = 0x12345678, lruCounter = 3
+  Line #1: valid = T, tag = 0x7e, data = 0x3456789a, lruCounter = 2
+  Line #2: valid = T, tag = 0x7f, data = 0x56789abc, lruCounter = 1
+  Line #3: valid = T, tag = 0x80, data = 0x789abcde, lruCounter = 0
+========== Memory ==========
+addr =   1000, data = 0x01234567
+addr =   1004, data = 0x12345678
+addr =   1008, data = 0x23456789
+addr =   1012, data = 0x3456789a
+addr =   1016, data = 0x456789ab
+addr =   1020, data = 0x56789abc
+addr =   1024, data = 0x6789abcd
+addr =   1028, data = 0x789abcde
+addr =   1032, data = 0x89abcdef
+
+INFO: addr = 0x00000408 --> Cache --> data = 0x89abcdef
+========== Cache Status ==========
+_numLines = 8, _numSets = 2, _lineSize = 4
+Set #0:
+  Line #0: valid = T, tag = 0x81, data = 0x89abcdef, lruCounter = 0
+  Line #1: valid = T, tag = 0x7e, data = 0x23456789, lruCounter = 3
+  Line #2: valid = T, tag = 0x7f, data = 0x456789ab, lruCounter = 2
+  Line #3: valid = T, tag = 0x80, data = 0x6789abcd, lruCounter = 1
+Set #1:
+  Line #0: valid = T, tag = 0x7d, data = 0x12345678, lruCounter = 3
+  Line #1: valid = T, tag = 0x7e, data = 0x3456789a, lruCounter = 2
+  Line #2: valid = T, tag = 0x7f, data = 0x56789abc, lruCounter = 1
+  Line #3: valid = T, tag = 0x80, data = 0x789abcde, lruCounter = 0
+========== Memory ==========
+addr =   1000, data = 0x01234567
+addr =   1004, data = 0x12345678
+addr =   1008, data = 0x23456789
+addr =   1012, data = 0x3456789a
+addr =   1016, data = 0x456789ab
+addr =   1020, data = 0x56789abc
+addr =   1024, data = 0x6789abcd
+addr =   1028, data = 0x789abcde
+addr =   1032, data = 0x89abcdef
+

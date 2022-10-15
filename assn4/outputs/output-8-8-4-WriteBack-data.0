@@ -1,0 +1,270 @@
+INFO: addr = 0x000003e8 --> Cache --> data = 0x01234567
+========== Cache Status ==========
+_numLines = 8, _numSets = 8, _lineSize = 4
+Set #0:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #1:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #2:
+  Line #0: valid = T, tag = 0x1f, data = 0x01234567, lruCounter = 0, dirty = F
+Set #3:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #4:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #5:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #6:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #7:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+========== Memory ==========
+addr =   1000, data = 0x01234567
+addr =   1004, data = 0x12345678
+addr =   1008, data = 0x23456789
+addr =   1012, data = 0x3456789a
+addr =   1016, data = 0x456789ab
+addr =   1020, data = 0x56789abc
+addr =   1024, data = 0x6789abcd
+addr =   1028, data = 0x789abcde
+addr =   1032, data = 0x89abcdef
+
+INFO: addr = 0x000003ec --> Cache --> data = 0x12345678
+========== Cache Status ==========
+_numLines = 8, _numSets = 8, _lineSize = 4
+Set #0:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #1:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #2:
+  Line #0: valid = T, tag = 0x1f, data = 0x01234567, lruCounter = 0, dirty = F
+Set #3:
+  Line #0: valid = T, tag = 0x1f, data = 0x12345678, lruCounter = 0, dirty = F
+Set #4:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #5:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #6:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #7:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+========== Memory ==========
+addr =   1000, data = 0x01234567
+addr =   1004, data = 0x12345678
+addr =   1008, data = 0x23456789
+addr =   1012, data = 0x3456789a
+addr =   1016, data = 0x456789ab
+addr =   1020, data = 0x56789abc
+addr =   1024, data = 0x6789abcd
+addr =   1028, data = 0x789abcde
+addr =   1032, data = 0x89abcdef
+
+INFO: addr = 0x000003f0 --> Cache --> data = 0x23456789
+========== Cache Status ==========
+_numLines = 8, _numSets = 8, _lineSize = 4
+Set #0:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #1:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #2:
+  Line #0: valid = T, tag = 0x1f, data = 0x01234567, lruCounter = 0, dirty = F
+Set #3:
+  Line #0: valid = T, tag = 0x1f, data = 0x12345678, lruCounter = 0, dirty = F
+Set #4:
+  Line #0: valid = T, tag = 0x1f, data = 0x23456789, lruCounter = 0, dirty = F
+Set #5:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #6:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #7:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+========== Memory ==========
+addr =   1000, data = 0x01234567
+addr =   1004, data = 0x12345678
+addr =   1008, data = 0x23456789
+addr =   1012, data = 0x3456789a
+addr =   1016, data = 0x456789ab
+addr =   1020, data = 0x56789abc
+addr =   1024, data = 0x6789abcd
+addr =   1028, data = 0x789abcde
+addr =   1032, data = 0x89abcdef
+
+INFO: addr = 0x000003f4 --> Cache --> data = 0x3456789a
+========== Cache Status ==========
+_numLines = 8, _numSets = 8, _lineSize = 4
+Set #0:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #1:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #2:
+  Line #0: valid = T, tag = 0x1f, data = 0x01234567, lruCounter = 0, dirty = F
+Set #3:
+  Line #0: valid = T, tag = 0x1f, data = 0x12345678, lruCounter = 0, dirty = F
+Set #4:
+  Line #0: valid = T, tag = 0x1f, data = 0x23456789, lruCounter = 0, dirty = F
+Set #5:
+  Line #0: valid = T, tag = 0x1f, data = 0x3456789a, lruCounter = 0, dirty = F
+Set #6:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #7:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+========== Memory ==========
+addr =   1000, data = 0x01234567
+addr =   1004, data = 0x12345678
+addr =   1008, data = 0x23456789
+addr =   1012, data = 0x3456789a
+addr =   1016, data = 0x456789ab
+addr =   1020, data = 0x56789abc
+addr =   1024, data = 0x6789abcd
+addr =   1028, data = 0x789abcde
+addr =   1032, data = 0x89abcdef
+
+INFO: addr = 0x000003f8 --> Cache --> data = 0x456789ab
+========== Cache Status ==========
+_numLines = 8, _numSets = 8, _lineSize = 4
+Set #0:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #1:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #2:
+  Line #0: valid = T, tag = 0x1f, data = 0x01234567, lruCounter = 0, dirty = F
+Set #3:
+  Line #0: valid = T, tag = 0x1f, data = 0x12345678, lruCounter = 0, dirty = F
+Set #4:
+  Line #0: valid = T, tag = 0x1f, data = 0x23456789, lruCounter = 0, dirty = F
+Set #5:
+  Line #0: valid = T, tag = 0x1f, data = 0x3456789a, lruCounter = 0, dirty = F
+Set #6:
+  Line #0: valid = T, tag = 0x1f, data = 0x456789ab, lruCounter = 0, dirty = F
+Set #7:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+========== Memory ==========
+addr =   1000, data = 0x01234567
+addr =   1004, data = 0x12345678
+addr =   1008, data = 0x23456789
+addr =   1012, data = 0x3456789a
+addr =   1016, data = 0x456789ab
+addr =   1020, data = 0x56789abc
+addr =   1024, data = 0x6789abcd
+addr =   1028, data = 0x789abcde
+addr =   1032, data = 0x89abcdef
+
+INFO: addr = 0x000003fc --> Cache --> data = 0x56789abc
+========== Cache Status ==========
+_numLines = 8, _numSets = 8, _lineSize = 4
+Set #0:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #1:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #2:
+  Line #0: valid = T, tag = 0x1f, data = 0x01234567, lruCounter = 0, dirty = F
+Set #3:
+  Line #0: valid = T, tag = 0x1f, data = 0x12345678, lruCounter = 0, dirty = F
+Set #4:
+  Line #0: valid = T, tag = 0x1f, data = 0x23456789, lruCounter = 0, dirty = F
+Set #5:
+  Line #0: valid = T, tag = 0x1f, data = 0x3456789a, lruCounter = 0, dirty = F
+Set #6:
+  Line #0: valid = T, tag = 0x1f, data = 0x456789ab, lruCounter = 0, dirty = F
+Set #7:
+  Line #0: valid = T, tag = 0x1f, data = 0x56789abc, lruCounter = 0, dirty = F
+========== Memory ==========
+addr =   1000, data = 0x01234567
+addr =   1004, data = 0x12345678
+addr =   1008, data = 0x23456789
+addr =   1012, data = 0x3456789a
+addr =   1016, data = 0x456789ab
+addr =   1020, data = 0x56789abc
+addr =   1024, data = 0x6789abcd
+addr =   1028, data = 0x789abcde
+addr =   1032, data = 0x89abcdef
+
+INFO: addr = 0x00000400 --> Cache --> data = 0x6789abcd
+========== Cache Status ==========
+_numLines = 8, _numSets = 8, _lineSize = 4
+Set #0:
+  Line #0: valid = T, tag = 0x20, data = 0x6789abcd, lruCounter = 0, dirty = F
+Set #1:
+  Line #0: valid = F, tag = 0x0, data = 0x00000000, lruCounter = 0, dirty = F
+Set #2:
+  Line #0: valid = T, tag = 0x1f, data = 0x01234567, lruCounter = 0, dirty = F
+Set #3:
+  Line #0: valid = T, tag = 0x1f, data = 0x12345678, lruCounter = 0, dirty = F
+Set #4:
+  Line #0: valid = T, tag = 0x1f, data = 0x23456789, lruCounter = 0, dirty = F
+Set #5:
+  Line #0: valid = T, tag = 0x1f, data = 0x3456789a, lruCounter = 0, dirty = F
+Set #6:
+  Line #0: valid = T, tag = 0x1f, data = 0x456789ab, lruCounter = 0, dirty = F
+Set #7:
+  Line #0: valid = T, tag = 0x1f, data = 0x56789abc, lruCounter = 0, dirty = F
+========== Memory ==========
+addr =   1000, data = 0x01234567
+addr =   1004, data = 0x12345678
+addr =   1008, data = 0x23456789
+addr =   1012, data = 0x3456789a
+addr =   1016, data = 0x456789ab
+addr =   1020, data = 0x56789abc
+addr =   1024, data = 0x6789abcd
+addr =   1028, data = 0x789abcde
+addr =   1032, data = 0x89abcdef
+
+INFO: addr = 0x00000404 --> Cache --> data = 0x789abcde
+========== Cache Status ==========
+_numLines = 8, _numSets = 8, _lineSize = 4
+Set #0:
+  Line #0: valid = T, tag = 0x20, data = 0x6789abcd, lruCounter = 0, dirty = F
+Set #1:
+  Line #0: valid = T, tag = 0x20, data = 0x789abcde, lruCounter = 0, dirty = F
+Set #2:
+  Line #0: valid = T, tag = 0x1f, data = 0x01234567, lruCounter = 0, dirty = F
+Set #3:
+  Line #0: valid = T, tag = 0x1f, data = 0x12345678, lruCounter = 0, dirty = F
+Set #4:
+  Line #0: valid = T, tag = 0x1f, data = 0x23456789, lruCounter = 0, dirty = F
+Set #5:
+  Line #0: valid = T, tag = 0x1f, data = 0x3456789a, lruCounter = 0, dirty = F
+Set #6:
+  Line #0: valid = T, tag = 0x1f, data = 0x456789ab, lruCounter = 0, dirty = F
+Set #7:
+  Line #0: valid = T, tag = 0x1f, data = 0x56789abc, lruCounter = 0, dirty = F
+========== Memory ==========
+addr =   1000, data = 0x01234567
+addr =   1004, data = 0x12345678
+addr =   1008, data = 0x23456789
+addr =   1012, data = 0x3456789a
+addr =   1016, data = 0x456789ab
+addr =   1020, data = 0x56789abc
+addr =   1024, data = 0x6789abcd
+addr =   1028, data = 0x789abcde
+addr =   1032, data = 0x89abcdef
+
+INFO: addr = 0x00000408 --> Cache --> data = 0x89abcdef
+========== Cache Status ==========
+_numLines = 8, _numSets = 8, _lineSize = 4
+Set #0:
+  Line #0: valid = T, tag = 0x20, data = 0x6789abcd, lruCounter = 0, dirty = F
+Set #1:
+  Line #0: valid = T, tag = 0x20, data = 0x789abcde, lruCounter = 0, dirty = F
+Set #2:
+  Line #0: valid = T, tag = 0x20, data = 0x89abcdef, lruCounter = 0, dirty = F
+Set #3:
+  Line #0: valid = T, tag = 0x1f, data = 0x12345678, lruCounter = 0, dirty = F
+Set #4:
+  Line #0: valid = T, tag = 0x1f, data = 0x23456789, lruCounter = 0, dirty = F
+Set #5:
+  Line #0: valid = T, tag = 0x1f, data = 0x3456789a, lruCounter = 0, dirty = F
+Set #6:
+  Line #0: valid = T, tag = 0x1f, data = 0x456789ab, lruCounter = 0, dirty = F
+Set #7:
+  Line #0: valid = T, tag = 0x1f, data = 0x56789abc, lruCounter = 0, dirty = F
+========== Memory ==========
+addr =   1000, data = 0x01234567
+addr =   1004, data = 0x12345678
+addr =   1008, data = 0x23456789
+addr =   1012, data = 0x3456789a
+addr =   1016, data = 0x456789ab
+addr =   1020, data = 0x56789abc
+addr =   1024, data = 0x6789abcd
+addr =   1028, data = 0x789abcde
+addr =   1032, data = 0x89abcdef
+

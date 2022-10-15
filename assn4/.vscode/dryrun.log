@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/d/2022-1/컴퓨터아키텍쳐/project/assn4'
+g++ -g -std=c++11 -o testCache -DMEMSIZE=8192 Cache.h Cache.cc testCache.cc
+make: Leaving directory '/mnt/d/2022-1/컴퓨터아키텍쳐/project/assn4'
+ 

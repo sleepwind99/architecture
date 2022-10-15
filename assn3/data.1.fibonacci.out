@@ -1,0 +1,1511 @@
+========== Cycle 0 ==========
+_PC = 1020
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+Registers
+  $8 = 0x00000002
+  $9 = 0x00000003
+  $10 = 0x00000100
+Latches
+  IF-ID
+    PCPlus4 = 0
+    inst = 0x00000000
+  ID-EX
+    PCPlus4 = 0
+    registersReadData1 = 0x00000000
+    registersReadData2 = 0x00000000
+    signExtdImm = 0x00000000
+    inst_20_16 = 0b00000
+    inst_15_11 = 0b00000
+    ctrl_EX
+      RegDst = 0
+      ALUSrc = 0
+      ALUOp  = 0
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 0
+      MemToReg = 0
+  EX-MEM
+    branchTargetAddr = 0
+    ALUResult = 0x00000000
+    registersReadData2 = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 0
+      MemToReg = 0
+  MEM-WB
+    dataMemReadData = 0x00000000
+    ALUResult = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_WB
+      RegWrite = 0
+      MemToReg = 0
+========== Cycle 1 ==========
+_PC = 1024
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+Registers
+  $8 = 0x00000002
+  $9 = 0x00000003
+  $10 = 0x00000100
+Latches
+  IF-ID
+    PCPlus4 = 1028
+    inst = 0x1109000d
+  ID-EX
+    PCPlus4 = 0
+    registersReadData1 = 0x00000000
+    registersReadData2 = 0x00000000
+    signExtdImm = 0x00000000
+    inst_20_16 = 0b00000
+    inst_15_11 = 0b00000
+    ctrl_EX
+      RegDst = 1
+      ALUSrc = 0
+      ALUOp  = 2
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  EX-MEM
+    branchTargetAddr = 0
+    ALUResult = 0x00000000
+    registersReadData2 = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 1
+    ctrl_WB
+      RegWrite = 0
+      MemToReg = 0
+  MEM-WB
+    dataMemReadData = 0x00000000
+    ALUResult = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_WB
+      RegWrite = 0
+      MemToReg = 0
+========== Cycle 2 ==========
+_PC = 1028
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+Registers
+  $8 = 0x00000002
+  $9 = 0x00000003
+  $10 = 0x00000100
+Latches
+  IF-ID
+    PCPlus4 = 1032
+    inst = 0x00000020
+  ID-EX
+    PCPlus4 = 1028
+    registersReadData1 = 0x00000002
+    registersReadData2 = 0x00000003
+    signExtdImm = 0x0000000d
+    inst_20_16 = 0b01001
+    inst_15_11 = 0b00000
+    ctrl_EX
+      RegDst = 0
+      ALUSrc = 0
+      ALUOp  = 1
+    ctrl_MEM
+      Branch   = 1
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 0
+      MemToReg = 0
+  EX-MEM
+    branchTargetAddr = 0
+    ALUResult = 0x00000000
+    registersReadData2 = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 1
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  MEM-WB
+    dataMemReadData = 0x00000000
+    ALUResult = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_WB
+      RegWrite = 0
+      MemToReg = 0
+========== Cycle 3 ==========
+_PC = 1032
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+Registers
+  $8 = 0x00000002
+  $9 = 0x00000003
+  $10 = 0x00000100
+Latches
+  IF-ID
+    PCPlus4 = 1036
+    inst = 0x00000020
+  ID-EX
+    PCPlus4 = 1032
+    registersReadData1 = 0x00000000
+    registersReadData2 = 0x00000000
+    signExtdImm = 0x00000020
+    inst_20_16 = 0b00000
+    inst_15_11 = 0b00000
+    ctrl_EX
+      RegDst = 1
+      ALUSrc = 0
+      ALUOp  = 2
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  EX-MEM
+    branchTargetAddr = 1080
+    ALUResult = 0xffffffff
+    registersReadData2 = 0x00000003
+    writeRegForRegisters = 0b01001
+    ctrl_MEM
+      Branch   = 1
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 0
+      MemToReg = 0
+  MEM-WB
+    dataMemReadData = 0x00000000
+    ALUResult = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+========== Cycle 4 ==========
+_PC = 1036
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+Registers
+  $8 = 0x00000002
+  $9 = 0x00000003
+  $10 = 0x00000100
+Latches
+  IF-ID
+    PCPlus4 = 1040
+    inst = 0x8d4b0000
+  ID-EX
+    PCPlus4 = 1036
+    registersReadData1 = 0x00000000
+    registersReadData2 = 0x00000000
+    signExtdImm = 0x00000020
+    inst_20_16 = 0b00000
+    inst_15_11 = 0b00000
+    ctrl_EX
+      RegDst = 1
+      ALUSrc = 0
+      ALUOp  = 2
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  EX-MEM
+    branchTargetAddr = 1160
+    ALUResult = 0x00000000
+    registersReadData2 = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 1
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  MEM-WB
+    dataMemReadData = 0x00000000
+    ALUResult = 0xffffffff
+    writeRegForRegisters = 0b01001
+    ctrl_WB
+      RegWrite = 0
+      MemToReg = 0
+========== Cycle 5 ==========
+_PC = 1040
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+Registers
+  $8 = 0x00000002
+  $9 = 0x00000003
+  $10 = 0x00000100
+Latches
+  IF-ID
+    PCPlus4 = 1044
+    inst = 0x8d4c0004
+  ID-EX
+    PCPlus4 = 1040
+    registersReadData1 = 0x00000100
+    registersReadData2 = 0x00000000
+    signExtdImm = 0x00000000
+    inst_20_16 = 0b01011
+    inst_15_11 = 0b00000
+    ctrl_EX
+      RegDst = 0
+      ALUSrc = 1
+      ALUOp  = 0
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 1
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 1
+  EX-MEM
+    branchTargetAddr = 1164
+    ALUResult = 0x00000000
+    registersReadData2 = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 1
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  MEM-WB
+    dataMemReadData = 0x00000000
+    ALUResult = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+========== Cycle 6 ==========
+_PC = 1044
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+Registers
+  $8 = 0x00000002
+  $9 = 0x00000003
+  $10 = 0x00000100
+Latches
+  IF-ID
+    PCPlus4 = 1048
+    inst = 0x00000020
+  ID-EX
+    PCPlus4 = 1044
+    registersReadData1 = 0x00000100
+    registersReadData2 = 0x00000000
+    signExtdImm = 0x00000004
+    inst_20_16 = 0b01100
+    inst_15_11 = 0b00000
+    ctrl_EX
+      RegDst = 0
+      ALUSrc = 1
+      ALUOp  = 0
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 1
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 1
+  EX-MEM
+    branchTargetAddr = 1040
+    ALUResult = 0x00000100
+    registersReadData2 = 0x00000000
+    writeRegForRegisters = 0b01011
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 1
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 1
+  MEM-WB
+    dataMemReadData = 0x00000000
+    ALUResult = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+========== Cycle 7 ==========
+_PC = 1048
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+Registers
+  $8 = 0x00000002
+  $9 = 0x00000003
+  $10 = 0x00000100
+Latches
+  IF-ID
+    PCPlus4 = 1052
+    inst = 0x00000020
+  ID-EX
+    PCPlus4 = 1048
+    registersReadData1 = 0x00000000
+    registersReadData2 = 0x00000000
+    signExtdImm = 0x00000020
+    inst_20_16 = 0b00000
+    inst_15_11 = 0b00000
+    ctrl_EX
+      RegDst = 1
+      ALUSrc = 0
+      ALUOp  = 2
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  EX-MEM
+    branchTargetAddr = 1060
+    ALUResult = 0x00000104
+    registersReadData2 = 0x00000000
+    writeRegForRegisters = 0b01100
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 1
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 1
+  MEM-WB
+    dataMemReadData = 0x00000001
+    ALUResult = 0x00000100
+    writeRegForRegisters = 0b01011
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 1
+========== Cycle 8 ==========
+_PC = 1052
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+Registers
+  $8 = 0x00000002
+  $9 = 0x00000003
+  $10 = 0x00000100
+  $11 = 0x00000001
+Latches
+  IF-ID
+    PCPlus4 = 1056
+    inst = 0x016c6820
+  ID-EX
+    PCPlus4 = 1052
+    registersReadData1 = 0x00000000
+    registersReadData2 = 0x00000000
+    signExtdImm = 0x00000020
+    inst_20_16 = 0b00000
+    inst_15_11 = 0b00000
+    ctrl_EX
+      RegDst = 1
+      ALUSrc = 0
+      ALUOp  = 2
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  EX-MEM
+    branchTargetAddr = 1176
+    ALUResult = 0x00000000
+    registersReadData2 = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 1
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  MEM-WB
+    dataMemReadData = 0x00000001
+    ALUResult = 0x00000104
+    writeRegForRegisters = 0b01100
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 1
+========== Cycle 9 ==========
+_PC = 1056
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+Registers
+  $8 = 0x00000002
+  $9 = 0x00000003
+  $10 = 0x00000100
+  $11 = 0x00000001
+  $12 = 0x00000001
+Latches
+  IF-ID
+    PCPlus4 = 1060
+    inst = 0x00000020
+  ID-EX
+    PCPlus4 = 1056
+    registersReadData1 = 0x00000001
+    registersReadData2 = 0x00000001
+    signExtdImm = 0x00006820
+    inst_20_16 = 0b01100
+    inst_15_11 = 0b01101
+    ctrl_EX
+      RegDst = 1
+      ALUSrc = 0
+      ALUOp  = 2
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  EX-MEM
+    branchTargetAddr = 1180
+    ALUResult = 0x00000000
+    registersReadData2 = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 1
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  MEM-WB
+    dataMemReadData = 0x00000001
+    ALUResult = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+========== Cycle 10 ==========
+_PC = 1060
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+Registers
+  $8 = 0x00000002
+  $9 = 0x00000003
+  $10 = 0x00000100
+  $11 = 0x00000001
+  $12 = 0x00000001
+Latches
+  IF-ID
+    PCPlus4 = 1064
+    inst = 0x00000020
+  ID-EX
+    PCPlus4 = 1060
+    registersReadData1 = 0x00000000
+    registersReadData2 = 0x00000000
+    signExtdImm = 0x00000020
+    inst_20_16 = 0b00000
+    inst_15_11 = 0b00000
+    ctrl_EX
+      RegDst = 1
+      ALUSrc = 0
+      ALUOp  = 2
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  EX-MEM
+    branchTargetAddr = 107680
+    ALUResult = 0x00000002
+    registersReadData2 = 0x00000001
+    writeRegForRegisters = 0b01101
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  MEM-WB
+    dataMemReadData = 0x00000001
+    ALUResult = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+========== Cycle 11 ==========
+_PC = 1064
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+Registers
+  $8 = 0x00000002
+  $9 = 0x00000003
+  $10 = 0x00000100
+  $11 = 0x00000001
+  $12 = 0x00000001
+Latches
+  IF-ID
+    PCPlus4 = 1068
+    inst = 0xad4d0008
+  ID-EX
+    PCPlus4 = 1064
+    registersReadData1 = 0x00000000
+    registersReadData2 = 0x00000000
+    signExtdImm = 0x00000020
+    inst_20_16 = 0b00000
+    inst_15_11 = 0b00000
+    ctrl_EX
+      RegDst = 1
+      ALUSrc = 0
+      ALUOp  = 2
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  EX-MEM
+    branchTargetAddr = 1188
+    ALUResult = 0x00000000
+    registersReadData2 = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 1
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  MEM-WB
+    dataMemReadData = 0x00000001
+    ALUResult = 0x00000002
+    writeRegForRegisters = 0b01101
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+========== Cycle 12 ==========
+_PC = 1068
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+Registers
+  $8 = 0x00000002
+  $9 = 0x00000003
+  $10 = 0x00000100
+  $11 = 0x00000001
+  $12 = 0x00000001
+  $13 = 0x00000002
+Latches
+  IF-ID
+    PCPlus4 = 1072
+    inst = 0x21080001
+  ID-EX
+    PCPlus4 = 1068
+    registersReadData1 = 0x00000100
+    registersReadData2 = 0x00000002
+    signExtdImm = 0x00000008
+    inst_20_16 = 0b01101
+    inst_15_11 = 0b00000
+    ctrl_EX
+      RegDst = 0
+      ALUSrc = 1
+      ALUOp  = 0
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 1
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 0
+      MemToReg = 0
+  EX-MEM
+    branchTargetAddr = 1192
+    ALUResult = 0x00000000
+    registersReadData2 = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 1
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  MEM-WB
+    dataMemReadData = 0x00000001
+    ALUResult = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+========== Cycle 13 ==========
+_PC = 1072
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+Registers
+  $8 = 0x00000002
+  $9 = 0x00000003
+  $10 = 0x00000100
+  $11 = 0x00000001
+  $12 = 0x00000001
+  $13 = 0x00000002
+Latches
+  IF-ID
+    PCPlus4 = 1076
+    inst = 0x214a0004
+  ID-EX
+    PCPlus4 = 1072
+    registersReadData1 = 0x00000002
+    registersReadData2 = 0x00000002
+    signExtdImm = 0x00000001
+    inst_20_16 = 0b01000
+    inst_15_11 = 0b00000
+    ctrl_EX
+      RegDst = 0
+      ALUSrc = 1
+      ALUOp  = 0
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  EX-MEM
+    branchTargetAddr = 1100
+    ALUResult = 0x00000108
+    registersReadData2 = 0x00000002
+    writeRegForRegisters = 0b01101
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 1
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 0
+      MemToReg = 0
+  MEM-WB
+    dataMemReadData = 0x00000001
+    ALUResult = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+========== Cycle 14 ==========
+_PC = 1076
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+  264 = 0x00000002
+Registers
+  $8 = 0x00000002
+  $9 = 0x00000003
+  $10 = 0x00000100
+  $11 = 0x00000001
+  $12 = 0x00000001
+  $13 = 0x00000002
+Latches
+  IF-ID
+    PCPlus4 = 1080
+    inst = 0x1000fff2
+  ID-EX
+    PCPlus4 = 1076
+    registersReadData1 = 0x00000100
+    registersReadData2 = 0x00000100
+    signExtdImm = 0x00000004
+    inst_20_16 = 0b01010
+    inst_15_11 = 0b00000
+    ctrl_EX
+      RegDst = 0
+      ALUSrc = 1
+      ALUOp  = 0
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  EX-MEM
+    branchTargetAddr = 1076
+    ALUResult = 0x00000003
+    registersReadData2 = 0x00000002
+    writeRegForRegisters = 0b01000
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  MEM-WB
+    dataMemReadData = 0x00000001
+    ALUResult = 0x00000108
+    writeRegForRegisters = 0b01101
+    ctrl_WB
+      RegWrite = 0
+      MemToReg = 0
+========== Cycle 15 ==========
+_PC = 1080
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+  264 = 0x00000002
+Registers
+  $8 = 0x00000002
+  $9 = 0x00000003
+  $10 = 0x00000100
+  $11 = 0x00000001
+  $12 = 0x00000001
+  $13 = 0x00000002
+Latches
+  IF-ID
+    PCPlus4 = 1084
+    inst = 0x00000020
+  ID-EX
+    PCPlus4 = 1080
+    registersReadData1 = 0x00000000
+    registersReadData2 = 0x00000000
+    signExtdImm = 0xfffffff2
+    inst_20_16 = 0b00000
+    inst_15_11 = 0b11111
+    ctrl_EX
+      RegDst = 0
+      ALUSrc = 0
+      ALUOp  = 1
+    ctrl_MEM
+      Branch   = 1
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 0
+      MemToReg = 0
+  EX-MEM
+    branchTargetAddr = 1092
+    ALUResult = 0x00000104
+    registersReadData2 = 0x00000100
+    writeRegForRegisters = 0b01010
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  MEM-WB
+    dataMemReadData = 0x00000001
+    ALUResult = 0x00000003
+    writeRegForRegisters = 0b01000
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+========== Cycle 16 ==========
+_PC = 1084
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+  264 = 0x00000002
+Registers
+  $8 = 0x00000003
+  $9 = 0x00000003
+  $10 = 0x00000100
+  $11 = 0x00000001
+  $12 = 0x00000001
+  $13 = 0x00000002
+Latches
+  IF-ID
+    PCPlus4 = 1088
+    inst = 0x00000020
+  ID-EX
+    PCPlus4 = 1084
+    registersReadData1 = 0x00000000
+    registersReadData2 = 0x00000000
+    signExtdImm = 0x00000020
+    inst_20_16 = 0b00000
+    inst_15_11 = 0b00000
+    ctrl_EX
+      RegDst = 1
+      ALUSrc = 0
+      ALUOp  = 2
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  EX-MEM
+    branchTargetAddr = 1024
+    ALUResult = 0x00000000
+    registersReadData2 = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_MEM
+      Branch   = 1
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 1
+    ctrl_WB
+      RegWrite = 0
+      MemToReg = 0
+  MEM-WB
+    dataMemReadData = 0x00000001
+    ALUResult = 0x00000104
+    writeRegForRegisters = 0b01010
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+========== Cycle 17 ==========
+_PC = 1024
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+  264 = 0x00000002
+Registers
+  $8 = 0x00000003
+  $9 = 0x00000003
+  $10 = 0x00000104
+  $11 = 0x00000001
+  $12 = 0x00000001
+  $13 = 0x00000002
+Latches
+  IF-ID
+    PCPlus4 = 1028
+    inst = 0x1109000d
+  ID-EX
+    PCPlus4 = 1088
+    registersReadData1 = 0x00000000
+    registersReadData2 = 0x00000000
+    signExtdImm = 0x00000020
+    inst_20_16 = 0b00000
+    inst_15_11 = 0b00000
+    ctrl_EX
+      RegDst = 1
+      ALUSrc = 0
+      ALUOp  = 2
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  EX-MEM
+    branchTargetAddr = 1212
+    ALUResult = 0x00000000
+    registersReadData2 = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 1
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  MEM-WB
+    dataMemReadData = 0x00000001
+    ALUResult = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_WB
+      RegWrite = 0
+      MemToReg = 0
+========== Cycle 18 ==========
+_PC = 1028
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+  264 = 0x00000002
+Registers
+  $8 = 0x00000003
+  $9 = 0x00000003
+  $10 = 0x00000104
+  $11 = 0x00000001
+  $12 = 0x00000001
+  $13 = 0x00000002
+Latches
+  IF-ID
+    PCPlus4 = 1032
+    inst = 0x00000020
+  ID-EX
+    PCPlus4 = 1028
+    registersReadData1 = 0x00000003
+    registersReadData2 = 0x00000003
+    signExtdImm = 0x0000000d
+    inst_20_16 = 0b01001
+    inst_15_11 = 0b00000
+    ctrl_EX
+      RegDst = 0
+      ALUSrc = 0
+      ALUOp  = 1
+    ctrl_MEM
+      Branch   = 1
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 0
+      MemToReg = 0
+  EX-MEM
+    branchTargetAddr = 1216
+    ALUResult = 0x00000000
+    registersReadData2 = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 1
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  MEM-WB
+    dataMemReadData = 0x00000001
+    ALUResult = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+========== Cycle 19 ==========
+_PC = 1032
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+  264 = 0x00000002
+Registers
+  $8 = 0x00000003
+  $9 = 0x00000003
+  $10 = 0x00000104
+  $11 = 0x00000001
+  $12 = 0x00000001
+  $13 = 0x00000002
+Latches
+  IF-ID
+    PCPlus4 = 1036
+    inst = 0x00000020
+  ID-EX
+    PCPlus4 = 1032
+    registersReadData1 = 0x00000000
+    registersReadData2 = 0x00000000
+    signExtdImm = 0x00000020
+    inst_20_16 = 0b00000
+    inst_15_11 = 0b00000
+    ctrl_EX
+      RegDst = 1
+      ALUSrc = 0
+      ALUOp  = 2
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  EX-MEM
+    branchTargetAddr = 1080
+    ALUResult = 0x00000000
+    registersReadData2 = 0x00000003
+    writeRegForRegisters = 0b01001
+    ctrl_MEM
+      Branch   = 1
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 1
+    ctrl_WB
+      RegWrite = 0
+      MemToReg = 0
+  MEM-WB
+    dataMemReadData = 0x00000001
+    ALUResult = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+========== Cycle 20 ==========
+_PC = 1080
+Instruction Memory
+  1024 = 0x1109000d
+  1028 = 0x00000020
+  1032 = 0x00000020
+  1036 = 0x8d4b0000
+  1040 = 0x8d4c0004
+  1044 = 0x00000020
+  1048 = 0x00000020
+  1052 = 0x016c6820
+  1056 = 0x00000020
+  1060 = 0x00000020
+  1064 = 0xad4d0008
+  1068 = 0x21080001
+  1072 = 0x214a0004
+  1076 = 0x1000fff2
+  1080 = 0x00000020
+  1084 = 0x00000020
+  1088 = 0x00000020
+Data Memory
+  256 = 0x00000001
+  260 = 0x00000001
+  264 = 0x00000002
+Registers
+  $8 = 0x00000003
+  $9 = 0x00000003
+  $10 = 0x00000104
+  $11 = 0x00000001
+  $12 = 0x00000001
+  $13 = 0x00000002
+Latches
+  IF-ID
+    PCPlus4 = 1084
+    inst = 0x00000020
+  ID-EX
+    PCPlus4 = 1036
+    registersReadData1 = 0x00000000
+    registersReadData2 = 0x00000000
+    signExtdImm = 0x00000020
+    inst_20_16 = 0b00000
+    inst_15_11 = 0b00000
+    ctrl_EX
+      RegDst = 1
+      ALUSrc = 0
+      ALUOp  = 2
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 0
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  EX-MEM
+    branchTargetAddr = 1160
+    ALUResult = 0x00000000
+    registersReadData2 = 0x00000000
+    writeRegForRegisters = 0b00000
+    ctrl_MEM
+      Branch   = 0
+      MemRead  = 0
+      MemWrite = 0
+      ALUZero  = 1
+    ctrl_WB
+      RegWrite = 1
+      MemToReg = 0
+  MEM-WB
+    dataMemReadData = 0x00000001
+    ALUResult = 0x00000000
+    writeRegForRegisters = 0b01001
+    ctrl_WB
+      RegWrite = 0
+      MemToReg = 0

@@ -1,0 +1,23 @@
+d256 00000001
+d260 00000001
+$8 2
+$9 3
+$10 100
+i1024 1109000d // beq $8, $9, 13    // IF ID EX ME
+i1028 00000020                      //    IF ID EX ME WB
+i1032 00000020                      //       IF ID EX ME WB
+i1036 8d4b0000 // lw $11, 0($10)    //          IF ID EX ME WB
+i1040 8d4c0004 // lw $12, 4($10)    //             IF ID EX ME WB
+i1044 00000020                      //                IF ID EX ME WB
+i1048 00000020                      //                   IF ID EX ME WB
+i1052 016c6820 // add $13, $11, $12 //                      IF ID EX ME WB
+i1056 00000020                      //                         IF ID EX ME WB
+i1060 00000020                      //                            IF ID EX ME WB
+i1064 ad4d0008 // sw $13, 8($10)    //                               IF ID EX ME WB
+i1068 21080001 // addi $8, $8, 1    //                                  IF ID EX ME WB
+i1072 214a0004 // addi $10, $10, 4  //                                     IF ID EX ME WB
+i1076 1000fff2 // beq $0, $0, -14   //                                        IF ID EX ME
+i1080 00000020                      //                                           IF ID EX
+i1084 00000020                      //                                              IF ID
+i1088 00000020                      //                                                 IF
+
